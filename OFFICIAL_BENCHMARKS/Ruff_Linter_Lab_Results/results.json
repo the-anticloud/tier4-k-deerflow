@@ -1,0 +1,19 @@
+{
+  "benchmark": "Ruff_Linter_Lab_Results",
+  "project": "K_DEERFLOW",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://docs.astral.sh/ruff/",
+  "results": {
+    "framework": "Ruff \u2014 Fast Python Linter (Astral)",
+    "source": "https://docs.astral.sh/ruff/",
+    "files_scanned": 10,
+    "total_issues": 16,
+    "top_issue_codes": {
+      "BLE001": 12,
+      "DTZ005": 2,
+      "FURB188": 1,
+      "TRY004": 1
+    },
+    "status": "PARTIAL"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "benchmark": "HELM_Lab_Results",
+  "project": "K_DEERFLOW",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "bytedance/deer-flow",
+  "commit": "f75d89f39dd1",
+  "run_timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_load_time_sec": 2.96,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HELM \u2014 Stanford Holistic Evaluation of Language Models (proxy)",
+    "source": "https://github.com/stanford-crfm/helm",
+    "note": "Full HELM requires GPU. Proxy: consistency + latency across 3 deterministic runs.",
+    "input": "Project K_DEERFLOW provides 3383 tracked files across ['Python', 'TypeScript'] with 781617 source lines.",
+    "runs": [
+      {
+        "seed": 0,
+        "label": "LABEL_0",
+        "score": 0.5353,
+        "latency_ms": 47.56
+      },
+      {
+        "seed": 1,
+        "label": "LABEL_0",
+        "score": 0.5353,
+        "latency_ms": 59.48
+      },
+      {
+        "seed": 2,
+        "label": "LABEL_0",
+        "score": 0.5353,
+        "latency_ms": 57.02
+      }
+    ],
+    "consistency": "PASS",
+    "avg_latency_ms": 54.69,
+    "status": "PASS",
+    "language_diversity": 4,
+    "primary_language": "Python",
+    "fairness_keywords_found": false
+  }
+}
